@@ -18,5 +18,6 @@ namespace WaterBill
         public double SubTotal { get; set; }
         public double VATFee { get; set; }
 
+        public DateTime InvoiceDate { get; set; } = DateTime.Now;
     }
 }
